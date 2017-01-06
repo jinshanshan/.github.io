@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>迪奥Xanadu</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.diox.xin/"/>
+  <updated>2017-01-05T15:05:20.708Z</updated>
+  <id>http://blog.diox.xin/</id>
+  
+  <author>
+    <name>Dio</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://blog.diox.xin/2017/01/05/new-article/"/>
+    <id>http://blog.diox.xin/2017/01/05/new-article/</id>
+    <published>2017-01-05T13:32:54.000Z</published>
+    <updated>2017-01-05T15:05:20.708Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;啊飒飒的撒旦萨克的库萨克的卡萨丁&lt;br&gt;爱上大声地撒旦撒&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://blog.diox.xin/categories/Diary/"/>
+    
+    
+      <category term="PS3" scheme="http://blog.diox.xin/tags/PS3/"/>
+    
+      <category term="Games" scheme="http://blog.diox.xin/tags/Games/"/>
+    
+  </entry>
+  
+</feed>
