@@ -110,7 +110,7 @@
 <meta property="og:url" content="http://blog.diox.xin/2017/01/08/new-article/index.html">
 <meta property="og:site_name" content="迪奥Xanadu">
 <meta property="og:description" content="前言本站背景的几何线条是采用的canvas-nest效果，一个基于html5 canvas绘制的网页背景效果，非常赞！来自github的开源项目canvas-nest。">
-<meta property="og:updated_time" content="2017-01-07T17:43:10.177Z">
+<meta property="og:updated_time" content="2017-01-07T17:54:18.670Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="为NexT theme添加canvas-nest背景特效">
 <meta name="twitter:description" content="前言本站背景的几何线条是采用的canvas-nest效果，一个基于html5 canvas绘制的网页背景效果，非常赞！来自github的开源项目canvas-nest。">
@@ -444,7 +444,7 @@
 <h1 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h1><h2 id="CPU占用过高"><a href="#CPU占用过高" class="headerlink" title="CPU占用过高"></a>CPU占用过高</h2><p>可以看看你现在的Cpu使用率，我的一般在10-20%左右，占用挺高的。</p>
 <p>优化方法是减少线条的总数量，但是效果会有点折扣，我使用的是默认的配置。</p>
 <h1 id="与next集成"><a href="#与next集成" class="headerlink" title="与next集成"></a>与next集成</h1><h2 id="修改-layout-swig"><a href="#修改-layout-swig" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>打开next/layout/_layout.swig<br>在&lt;/body&gt;之前添加如下代码</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"></div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% if theme.canvas_nest %&#125;</div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">&#123;% endif %&#125;</div></pre></td></tr></table></figure>
 <h2 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h2><p>打开/next/_config.yml，添加以下代码<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta"># --------------------------------------------------------------</span></div><div class="line"><span class="meta"># background settings</span></div><div class="line"><span class="meta"># --------------------------------------------------------------</span></div><div class="line"><span class="meta"># add canvas-nest effect</span></div><div class="line"><span class="meta"># see detail from https://github.com/hustcc/canvas-nest.js</span></div><div class="line">canvas_nest: <span class="literal">true</span></div></pre></td></tr></table></figure><br>至此，大功告成，运行hexo clean 和 hexo g hexo s之后就可以看到效果了。</p>
 
       
