@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.diox.xin/"/>
-  <updated>2017-01-05T15:05:20.708Z</updated>
+  <updated>2017-01-07T17:43:10.177Z</updated>
   <id>http://blog.diox.xin/</id>
   
   <author>
@@ -16,24 +16,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇文章</title>
-    <link href="http://blog.diox.xin/2017/01/05/new-article/"/>
-    <id>http://blog.diox.xin/2017/01/05/new-article/</id>
-    <published>2017-01-05T13:32:54.000Z</published>
-    <updated>2017-01-05T15:05:20.708Z</updated>
+    <title>为NexT theme添加canvas-nest背景特效</title>
+    <link href="http://blog.diox.xin/2017/01/08/new-article/"/>
+    <id>http://blog.diox.xin/2017/01/08/new-article/</id>
+    <published>2017-01-08T13:32:54.000Z</published>
+    <updated>2017-01-07T17:43:10.177Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;啊飒飒的撒旦萨克的库萨克的卡萨丁&lt;br&gt;爱上大声地撒旦撒&lt;br&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;本站背景的几何线条是采用的canvas-nest效果，一个基于html5 canvas绘制的网页背景效果，非常赞！来自github的开源项目canvas-nest。 &lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
-      <category term="Diary" scheme="http://blog.diox.xin/categories/Diary/"/>
+      <category term="技术" scheme="http://blog.diox.xin/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="PS3" scheme="http://blog.diox.xin/tags/PS3/"/>
+      <category term="Hexo" scheme="http://blog.diox.xin/tags/Hexo/"/>
     
-      <category term="Games" scheme="http://blog.diox.xin/tags/Games/"/>
+      <category term="NexT theme" scheme="http://blog.diox.xin/tags/NexT-theme/"/>
     
   </entry>
   
